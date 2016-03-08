@@ -1,0 +1,22 @@
+{
+  "name": "bingo-reactive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --nonStandard true --loose all --modules ignore -o dist/bingo.js"
+  },
+  "author": "luca mezzalira <mezzalab@gmail.com> (http://lucamezzalira.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.35",
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.1"
+  }
+}
