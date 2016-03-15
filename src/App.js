@@ -8,17 +8,17 @@ class App {
     }
     
     init(){
-       /* let engine = new BallsCallSystem();        
+        /*let engine = new BallsCallSystem();        
         let t1 = new Ticket("t1", engine.ballStream);        
-        //let t2 = new Ticket("t2", engine.ballStream);
+       // let t2 = new Ticket("t2", engine.ballStream);
         
         setTimeout(()=>{
             let t2 = new Ticket("t2", engine.ballStream);
         }, 5000);
         
         
-        engine.startGame();*/
-
+        engine.startGame();
+*/
        //============================================
 
        
